@@ -104,7 +104,12 @@ m=int(input("m="))
 
 a=[[random.randint(0,10) for j in range(m)] for i in range(n)]
 print(a)
-
+p=int(input("p="))
+for l in m:
+    print a[l][p]
+k=int(input("k="))
+for l in n:
+    print a[k][n]
 r=int(input("r="))
 t=int(input("t="))
 print(a[r][t])
